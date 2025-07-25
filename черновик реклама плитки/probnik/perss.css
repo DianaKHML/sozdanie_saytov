@@ -1,0 +1,77 @@
+html{
+    font-size: 18px;
+    }
+  body {
+      margin: 0;
+      background-image: url(../image/les3.jpeg);
+      justify-content: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      box-shadow: inset 0 200px 250px 0px rgb(0, 0, 0);
+    }
+  
+    #osnova{
+      text-align: center;
+      
+      box-shadow: 50px;
+      color: #d1dba5;
+      text-shadow: #e2e1b1 1px 0 15px;
+      font-size: 1.2em;
+      max-width: 1200px;
+      margin: auto;
+      border-radius: 10px;
+  }
+  
+  #perss{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      justify-items: center;
+  }
+  #perss div{
+      margin-top: 10px;
+      width: 90%;
+      background-color: #ffffcc;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: solid burlywood 2px;
+  }
+  #perss div div{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+  }
+  #perss div img{
+      width: 100%;
+      height: 100%;
+      object-fit:fill;
+      border-radius: 15px 15px 0 0;
+  }
+  #opis{
+      color: black;
+      text-align: justify;
+  }
+  #ssylkamenu{
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+  }
+  #ober{
+    max-width: 1200px;
+    margin: auto;
+  }
+  #nazvanie{
+    margin: 0 0 50px 0px;
+    font-size: 3em;
+  }
+  #persy{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+  }
+  

@@ -1,0 +1,64 @@
+html{
+  font-size: 18px;
+  font-family: 'Arial';
+}
+body {
+  margin: 0;
+  
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: linear-gradient(45deg, rgb(84, 255, 50), rgb(252, 160, 75));
+  background-image: url(/img/plitka_fon.jpg);
+  
+  box-shadow: inset 0 70px 250px 0px rgb(0, 0, 0);
+}
+#osnova{
+  text-align: center;
+  box-shadow: 50px;
+  color: #ffff9d;
+  text-shadow: #6d3a04 1px 0 15px;
+  font-size: 1em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#plitki{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+}
+#plitka{
+  margin-top: 10px;
+  width: 90%;
+  background-color: #ffffcc;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid burlywood 2px;
+  color: brown;
+  text-shadow: none;
+}
+#plitki div div{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+}
+#nazvanie{
+  margin: 0 0 50px 0px;
+  font-size: 3em;
+}  
+#foto img{
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  border-radius: 15px 15px 0 0;
+}
+#paragraf{
+  text-align: left;
+}
