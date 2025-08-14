@@ -1,0 +1,81 @@
+#menu, .nav, .menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav {
+    position: relative;
+    background-color: #fff; /*цвет фона панели меню*/
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 50px;
+    
+    box-shadow: 0 8px 15px rgba(0,0,0,.2); /*цвет тени панели меню*/
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.nav input:checked ~ .menu {
+    width: 100%;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000000; /*цвет текста на панели меню*/
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    color: #14d3d3; /*цвет текста на панели меню при наведении мышью*/
+}
+
+.nav input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.nav span {
+    position: absolute;
+    left: 30px;
+    width: 30px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #000000; /*цвет двух полос меню в сврнутом состоянии*/
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.nav input:checked ~ span {
+    background-color: #ff0055; /*цвет крестика в панели меню*/
+}
+/*движения палочек и их расположение*/
+.nav span:nth-child(2) {
+    transform: translateY(-8px);
+}
+
+.nav input:checked ~ span:nth-child(2) {
+    transform: translateY(0) rotate(-45deg);
+}
+.nav span:nth-child(3) {
+    transform: translateY(8px);
+}
+
+.nav input:checked ~ span:nth-child(3) {
+    transform: translateY(0) rotate(45deg);
+}
