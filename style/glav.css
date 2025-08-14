@@ -1,4 +1,52 @@
 html{
-    font-size: 18px;
-    font-family: 'Arial';
-  }
+  font-size: 18px;
+  font-family: 'Arial';
+}
+body {
+  margin: 0;
+  background-image: url(/img/fon1.jpg);
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  /*box-shadow: inset 0 200px 250px 0px rgb(0, 0, 0);*/
+}
+
+#osnova{
+  text-align: center;
+  box-shadow: 50px;
+  color: #ffffff; /*цвет надписи наверху*/
+  text-shadow: #e2e1b1 1px 0 15px; /*цвет тени надписи*/
+  font-size: 1.2em;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+}  
+
+#nazvanie{
+  margin: 0 0 50px 0px;
+  font-size: 3em;
+}
+#infa {
+  text-align: left;
+  color: rgb(255, 255, 255); /*цвет текса на стекле*/
+  box-shadow: none;
+  text-shadow: none;
+  margin: 50px;
+  background-color: rgba(0, 0, 0, 0.620);
+  border-radius: 15px;
+  padding: 10px 10px 00px 0px;
+}
+#infa h3{
+  margin: 15px 0px 0px 40px;
+  font-size: 1.1em;
+}
+#infa p{
+  margin: 10px 0px 0px 15px;
+  font-size: 0.9em;
+}
+img{
+  border-radius: 15px;
+}

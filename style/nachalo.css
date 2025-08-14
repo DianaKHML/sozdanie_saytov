@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
-    background: #131313;
+    background: #0f0f0f;
 }
 
 h1 a {
@@ -42,7 +42,7 @@ h1 a {
   width: 0;
   height: 0;
   color: #fff;
-  background-color: #191919; /*цвет фона*/
+  background-color: #131313; /*цвет фона*/
   animation: 1s grow ease forwards;
   text-align: center;
 }
@@ -64,7 +64,7 @@ h1 a {
 }
 
 .nav_list li {
-    background-color: #dfd6dc;
+  background-color: #191919;
   padding: 15px 0;
   transform: translateY(200px);
   opacity: 0;
@@ -91,7 +91,7 @@ h1 a {
 
 .nav_list li:hover:before {
     /*внизу написаны цвета, в которые окрашивается надпись при наведении мыши*/
-    background: linear-gradient(to bottom, #1d0817, #2b0b22);
+    background: linear-gradient(to bottom, #000000, #696969);
     transform: scale(1.2);
 }
 
