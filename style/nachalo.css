@@ -14,7 +14,7 @@
 
 h1 a {
   font-size: 100px;
-  color: #BF2E97; /*цвет текста начала*/
+  color: #ff70c3; /*цвет текста начала*/
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h1 a {
 .nav_list a {
   text-decoration: none;
   font-size: 100px; /*размер текта на кнопке продолжения*/
-  color: #BF2E97; /*цвет текста в всплываюем блоке*/
+  color: #ff70c3; /*цвет текста в всплываюем блоке*/
 }
 
 .nav_list_item {
@@ -64,7 +64,7 @@ h1 a {
 }
 
 .nav_list li {
-  background-color: #191919;
+  background-color: #202020; /*цвет фона на кнопке продолжения*/
   padding: 15px 0;
   transform: translateY(200px);
   opacity: 0;
@@ -84,14 +84,9 @@ h1 a {
     border-radius: 25px;
 }
 
-.nav_list li:hover{
-    color: black;
-    background-color: #ccff9900;
-}
-
 .nav_list li:hover:before {
     /*внизу написаны цвета, в которые окрашивается надпись при наведении мыши*/
-    background: linear-gradient(to bottom, #000000, #696969);
+    background: linear-gradient(to bottom, #530031, #b8234d/*#980058, #88004f, #88034f, #810049, #883049*/);
     transform: scale(1.2);
 }
 
@@ -112,8 +107,7 @@ h1 a {
   font-size: 80px; /*рамер крестика в всплывающем блоке*/
   align-items: center;
   justify-content: center;
-  background-color: #BF2E97; /*цвет фона крастика*/
-  color: #fff; /*цвет крестикка*/
+  color: #ff70c3; /*цвет крестикка*/
   content: "×";
   cursor: pointer;
   opacity: 0; 

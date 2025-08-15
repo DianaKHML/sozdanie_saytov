@@ -1,3 +1,7 @@
+#menu{
+    margin: 10px; /*внешний отступ*/
+}
+
 #menu, .nav, .menu {
     display: flex;
     justify-content: right;
